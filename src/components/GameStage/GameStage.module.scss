@@ -1,0 +1,27 @@
+.newColors {
+	width: 480px;
+	margin: 10px auto;
+	display: flex;
+	justify-content: flex-start;
+
+	div {
+		margin: 2px;
+	}
+}
+
+.gameStage {
+	width: 480px;
+	margin: 20px auto;
+	display: grid;
+	grid-template-columns: repeat(9, 1fr);
+	grid-template-rows: repeat(9, 1fr);
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+}
+
+.score {
+	min-width: 100px;
+	padding: 10px;
+	padding-right: 45px;
+	font-size: 20px;
+}
